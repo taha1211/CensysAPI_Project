@@ -23,7 +23,7 @@ executing the following terminal command:
 
 **3.Running the Python Code**
 
-Before the Python script can be executed, it requires validation entry of both the `api_id` and the `api_secret` order to immediately execute. These can both be found within the account settings of the user's Censys account, and allows for Censys' protection of data requests. Upon replacing both sections with their correct information and saving, the user should be able to enter the following command into the terminal:
+Before the Python script can be executed, it requires validation entry of both the `api_id` and the `api_secret` data points to immediately execute. These can both be found within the account settings of the user's Censys account, and allows for Censys' protection of data requests. Upon replacing both sections in the code with their correct information and saving, the user should be able to enter the following command into the terminal:
 
 `python Censys.py`
 
