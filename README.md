@@ -22,10 +22,16 @@ executing the following terminal command:
 `sudo pip install -r requirements.txt`
 
 **3.Running the Python Code**
-The Python script can be executed without any sort of dedicated debugger tool. In order to immediately execute,
-enter the following command into the terminal:
+
+Before the Python script can be executed, it requires validation entry of both the `api_id` and the `api_secret` order to immediately execute. These can both be found within the account settings of the user's Censys account, and allows for Censys' protection of data requests. Upon replacing both sections with their correct information and saving, the user should be able to enter the following command into the terminal:
 
 `python Censys.py`
 
 The script will generate an 'outputFile.csv' with the pre-selected parameters for use. If any parameters need to be changed,
 the source code is heavily commented and easy to understand.
+
+
+
+**Additional Info**
+
+Any additional information can be found on the [Censys API Page](https://censys.io/api)
