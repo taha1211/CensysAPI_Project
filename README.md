@@ -10,7 +10,7 @@ The code requires a few core steps:
 
 **1. Clone the Repo to Your Local Machine**
 
-Since the repository is public, you're more than welcome to test the code locally, or modify it
+Since you've been given acces to this repository, you're more than welcome to test the code locally, or modify it
 in order to fit your own custom use-cases for future implementation.
 
 **2.Install the required packages**
