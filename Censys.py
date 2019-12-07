@@ -5,7 +5,7 @@ import censys.certificates
 with open('outputFile.csv', mode='w') as output_file:
     output = csv.writer(output_file, delimiter=',', quotechar='.', quoting=csv.QUOTE_MINIMAL)
     #this validates my ability to be able to access the Censys API
-    c = censys.certificates.CensysCertificates(api_id="bc15bbc0-1ee0-4a74-ad99-713ffaa3e040", api_secret="RhdD3NTEfnhsfAVAmB3uUBUkcXpyH1vF")
+    c = censys.certificates.CensysCertificates(api_id="XXX", api_secret="XXX")
 
 
 
